@@ -22,17 +22,15 @@ Learn [how to create a repo](https://help.github.com/articles/create-a-repo). Le
 
 The links:
 
-   * [pathfinder open in textmate](https://github.com/orta/pathfinder_open_in_textmate) plugin repo.
+* [pathfinder open in textmate](https://github.com/orta/pathfinder_open_in_textmate) plugin repo.
 
-  * [pathfinder open in bbedit macvim](https://github.com/danmichaelo/pathfinder_open_in_bbedit_macvim) plugin repo.
+* [pathfinder open in bbedit macvim](https://github.com/danmichaelo/pathfinder_open_in_bbedit_macvim) plugin repo.
 
-  * [TextWrangler](http://www.barebones.com/products/TextWrangler/).
+* [TextWrangler](http://www.barebones.com/products/TextWrangler/).
 
-  * [Sublime Text 2](http://www.sublimetext.com/).
+* [Sublime Text 2](http://www.sublimetext.com/).
 
-  * [Path Finder](http://www.cocoatech.com/).
-
-  * "MacVim open in tabs" plugin [my fork](https://github.com/Angles/pathfinder_open_in_bbedit_macvim) of [pathfinder open in bbedit macvim](https://github.com/danmichaelo/pathfinder_open_in_bbedit_macvim) (_danmichaelo's_ plugin is awesome, very useful, and he has a binary to download, go [there](https://github.com/danmichaelo/pathfinder_open_in_bbedit_macvim), get the plugin, and pimp out your PathFinder app).
+* [Path Finder](http://www.cocoatech.com/).
 
 ---
 ___repo, repo, repo___!
