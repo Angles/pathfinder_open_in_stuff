@@ -4,7 +4,7 @@ __A simple ripoff__ of [pathfinder open in textmate](https://github.com/orta/pat
 
 Tragically, I realized _find and replace_ required not even 1 line of code be changed manually. So I copied the [pathfinder open in bbedit macvim](https://github.com/danmichaelo/pathfinder_open_in_bbedit_macvim) BBEdit directory twice, once to _find and replace_ `BBEdit` to `TextWrangler`, another for `Sublime`. Why? I do not know.
 
-# Update for change
+## Update for change
 
  _I changed_ ___something___ a little, using `URLs` and `Bundle Ids` (obligatory code example):
 
@@ -19,6 +19,12 @@ But, __release this array?__ I forget about stuff:
     [URLArray addObject:[item URL]];
 
 Since ___no one will see this this hack job___, it doesn't matter.
+
+### Install
+
+Get compiled plugin from [downloads](https://github.com/Angles/pathfinder_open_in_stuff/downloads), and move into `~/Library/Application Support/Path Finder/PlugIns`. _(same basic instructions as for [danmichaelo](https://github.com/danmichaelo) plugins, he knows what he's doing and his plugins work, but I'm a complete noob_).
+
+## Stuff you'll never read
 
 One letter changes are cool.
 ---------
