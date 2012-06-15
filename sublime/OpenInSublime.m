@@ -30,9 +30,10 @@
 {
   NSMenuItem* menuItem;
 	
-  menuItem = [[[NSMenuItem alloc] initWithTitle:@"Open in Sublime" action:@selector(pluginAction:) keyEquivalent:@""] autorelease];
+  // must hard code since PathFinder 6 forgets preferences user sets for 3rd party plugins 
+  menuItem = [[[NSMenuItem alloc] initWithTitle:@"Open in Sublime" action:@selector(pluginAction:) keyEquivalent:@"s"] autorelease];
   [menuItem setTarget:self];
-  //[menuItem setKeyEquivalentModifierMask: NSControlKeyMask | NSCommandKeyMask];
+  [menuItem setKeyEquivalentModifierMask: NSControlKeyMask | NSCommandKeyMask];
   return menuItem;
 }
 
