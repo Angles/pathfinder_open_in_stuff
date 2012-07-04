@@ -6,17 +6,21 @@ Tragically, I realized _find and replace_ required not even 1 line of code be ch
 
 ## Update for change
 
- _I changed_ ___something___ a little, using `URLs` and `Bundle Ids` (obligatory code example):
+ _I changed_ ___something___ a little, using `URLs` and `Bundle Ids`. This obligatory code example _should_ have [color](https://github.com/blog/832-rolling-out-the-redcarpet) now:
 
-    [ws openURLs:URLArray withAppBundleIdentifier:@"com.sublimetext.2" 
+``` Objective-C
+[ws openURLs:URLArray withAppBundleIdentifier:@"com.sublimetext.2" 
     options:NSWorkspaceLaunchAsync additionalEventParamDescriptor:nil 
     launchIdentifiers:nil];
+```
 
 But, __release this array?__ I forget about stuff:
 
+``` Objective-C
     NSMutableArray *URLArray = [NSMutableArray arrayWithCapacity:[items count]];
     // then some stuff, for example
-    [URLArray addObject:[item URL]];
+    [URLArray addObject:[item URL]]
+```
 
 Since ___no one will see this this hack job___, it doesn't matter.
 
