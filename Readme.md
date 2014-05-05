@@ -1,3 +1,5 @@
+## DATED Snow Leopard OLD, LIKELY OBSOLETE NOW ##
+
 # Open in TextWrangler or Sublime for Pathfinder #
 
 __A simple ripoff__ of [pathfinder open in textmate](https://github.com/orta/pathfinder_open_in_textmate) and [pathfinder open in bbedit macvim](https://github.com/danmichaelo/pathfinder_open_in_bbedit_macvim) plugins, using _find and replace_ to make __Open in TextWrangler__ and __Open in Sublime Text 2__ plugins for PathFinder.
